@@ -13,9 +13,11 @@ Esse projeto tem como objetivo criar um modelo capaz de identificar o sexo de um
 A aplicação depedende dos seguintes componentes.
 
 - Python 3.6.x
+- Git x
 
 # Criação virtualenv do Python
-Criar uma ambiente virtual
+Criar uma ambiente virtual. 
+obs: Primeiramente, abra o anaconda prompt ou prompt devidamente setado a variável de ambiente do python e git.
 
 ## Criar
 ```
@@ -30,12 +32,14 @@ nome_ambiente\Scripts\activate
 source nome_ambiente/bin/activate
 ```
 
+# Baixar Projeto
+```
+https://github.com/caio-cunha/projeto-portal-telemedicina.git
+```
+
 # Instalar dependências
 ```
 pip install requirements.txt
 ```
 
-# Baixar Projeto
-```
 
-```
