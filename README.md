@@ -14,4 +14,28 @@ A aplicação depedende dos seguintes componentes.
 
 - Python 3.6.x
 
-# Instalação
+# Criação virtualenv do Python
+Criar uma ambiente virtual
+
+## Criar
+```
+virtualenv 'nome_ambiente'
+```
+## Ativar (Windows)
+```
+nome_ambiente\Scripts\activate
+```
+## Ativar (Mac OS / Linux)
+```
+source nome_ambiente/bin/activate
+```
+
+# Instalar dependências
+```
+pip install requirements.txt
+```
+
+# Baixar Projeto
+```
+
+```
