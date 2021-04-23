@@ -4,6 +4,7 @@ import pandas as pd
 import sys
 import pickle
 import numpy as np
+import joblib
 
 from sklearn.preprocessing import StandardScaler
 
@@ -56,6 +57,10 @@ def tratar_dados_para_predicao(df):
     ##transformando todos os valores em float
     df_tratado = df.round(0).astype(float)
     
+    ##Normalizar os dados com o scaller salvo
+    scaler = joblib.load('scaler.save');
+    df_tratado = scaler.transform(df_tratado)
+    
     return df_tratado
 
 def predicao_modelo(df):
@@ -93,9 +98,10 @@ if __name__ == '__main__':
     
     ##Transformar CSV READER em DATAFRAME
     df = transformar_csv_dataframe(csv_reader)
-    
+
     ##Tratar os dados 
     df_tratado = tratar_dados_para_predicao(df)
+    df_tratado = pd.DataFrame(df_tratado)
     
     ##Predição modelo treinado
     preditos = predicao_modelo(df_tratado)
