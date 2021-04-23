@@ -1,5 +1,5 @@
 # Sobre o projeto
-Esse projeto tem como objetivo criar um modelo capaz de identificar o sexo de um paciente, com base em algumas informações do paciente.
+Esse projeto tem como objetivo criar um modelo capaz de identificar o sexo de um paciente com base em algumas informações do paciente, bem como inferir novos dados ao modelo.
 - Importação dos dados
 - Análise das features
 - Tratamento dos dados
@@ -16,7 +16,7 @@ A aplicação depedende dos seguintes componentes.
 - Git 
 
 # Criação virtualenv do Python
-Criar uma ambiente virtual. 
+Criar um ambiente virtual. 
 - Abra o anaconda prompt ou prompt devidamente setado a variável de ambiente do python e git.
 - Crie um diretório para o projeto
 
