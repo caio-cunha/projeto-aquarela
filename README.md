@@ -26,7 +26,7 @@ virtualenv 'nome_ambiente'
 ```
 ## Ativar (Windows)
 ```
-nome_ambiente\Scripts\activate
+nome_ambiente/Scripts/activate
 ```
 ## Ativar (Mac OS / Linux)
 ```
