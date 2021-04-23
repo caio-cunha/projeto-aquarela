@@ -12,7 +12,7 @@ Esse projeto tem como objetivo criar um modelo capaz de identificar o sexo de um
 # Pré requisitos 
 A aplicação depedende dos seguintes componentes.
 
-- Python 3.6.x
+- Python > 3.6.x 
 - Git 
 
 # Criação virtualenv do Python
