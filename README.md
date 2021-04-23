@@ -42,7 +42,7 @@ git clone https://github.com/caio-cunha/projeto-portal-telemedicina.git
 # Instalar dependências
 - Entre no projeto baixado e digite o comando abaixo
 ```
-python -m pip install requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 # Executar script de predição utilizando o modelo treinado
