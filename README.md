@@ -17,7 +17,7 @@ A aplicação depedende dos seguintes componentes.
 
 # Criação virtualenv do Python
 Criar uma ambiente virtual. 
-obs: Primeiramente, abra o anaconda prompt ou prompt devidamente setado a variável de ambiente do python e git.
+- Primeiramente, abra o anaconda prompt ou prompt devidamente setado a variável de ambiente do python e git.
 
 ## Criar
 ```
@@ -33,13 +33,25 @@ source nome_ambiente/bin/activate
 ```
 
 # Baixar Projeto
+- Após ativar o ambiente vá ao diretório que deseja baixar o projeto.
 ```
-https://github.com/caio-cunha/projeto-portal-telemedicina.git
+git clone https://github.com/caio-cunha/projeto-portal-telemedicina.git
 ```
 
 # Instalar dependências
+- Entre no projeto baixado e digite o comando abaixo
 ```
-pip install requirements.txt
+python -m pip install requirements.txt
+```
+
+# Executar script de predição utilizando o modelo treinado
+```
+(ambiente venv) python sex_predictor.py --input_file newsample.csv
+```
+
+# Executar script de treinamento
+```
+Entrar no script treinador_modelo.ipynb e seguir as orientações do relatório
 ```
 
 
