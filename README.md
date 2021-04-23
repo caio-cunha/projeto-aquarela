@@ -17,7 +17,7 @@ A aplicação depedende dos seguintes componentes.
 
 # Criação virtualenv do Python
 Criar um ambiente virtual. 
-- Abra o anaconda prompt ou o prompt devidamente setado a variável de ambiente do python e git.
+- Abra o anaconda prompt ou o prompt (devidamente setado a variável de ambiente do python e git).
 - Crie um diretório para o projeto
 
 ## Criar
