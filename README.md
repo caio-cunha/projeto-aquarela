@@ -1,7 +1,7 @@
 # Sobre o projeto
-Esse projeto tem como objetivo criar um modelo capaz de identificar o sexo de um paciente com base em algumas informações do paciente, bem como inferir novos dados ao modelo.
+Esse projeto tem como objetivo criar um modelo capaz de identificar o sexo de um paciente com base em algumas informações do mesmo, bem como inferir novos dados ao modelo.
 - Importação dos dados
-- Análise das features
+- Análise dos dados
 - Tratamento dos dados
 - Normalização dos dados
 - Separação dos dados de treinamento e teste
